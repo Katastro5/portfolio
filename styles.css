@@ -97,8 +97,9 @@ a {
 }
 
 .project-image {
-  width: 150px;
-  height: auto;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
 }
 
 img {
@@ -110,8 +111,37 @@ img {
 }
 
 .project-description {
-  max-width: 500px;
+  max-width: 400px;
+  height: 100%;
   margin: 10px 0;
   text-align: justify;
   line-height: 1.6;
+}
+
+.project-visits {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.visit-label {
+  width: 15%;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.project-visits iframe {
+  width: 85%;
+  max-width: 85%;
+}
+
+.about-content {
+  max-width: 750px;
+  margin: 10px auto;
+  text-align: justify;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
