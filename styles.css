@@ -46,13 +46,10 @@ a {
 }
 
 .social-media-buttons {
-  display: flex;
   justify-content: center;
 }
 
 .social-media-buttons a {
-  margin: 0 10px;
-  color: lightskyblue;
   text-decoration: none;
 }
 
@@ -90,10 +87,6 @@ a {
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-}
-
-.project-details {
-  margin-bottom: 10px;
 }
 
 .project-image {
